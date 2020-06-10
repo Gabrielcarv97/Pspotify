@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../../assets/GothamBold.ttf") format("truetype");
+  }
+nav{
+  background-color: #1DB954;
+  font-family: Gotham;
+}
+

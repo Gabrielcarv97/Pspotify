@@ -1,0 +1,27 @@
+
+<div class="container">
+  <div class="row justify-content-md-center" >
+    <div class="col-3" *ngFor="let play of getplaylists"  style="margin-bottom: 25px ; margin-top: 25px;">
+      <a routerLink="/playlist-detail/{{play.id}}" >
+      <img class="fotoscapa"  src="../../assets/musicas/{{play.nome}}/{{play.img}}"/>
+    </a></div>
+    <div class="w-100"></div>
+  </div>
+</div>
+
+
+<!--
+<body>
+  <section id="playlist">
+    <table>
+      <tr>
+        <td *ngFor="let play of getplaylists">
+            <a routerLink="/playlist-detail/{{play.id}}" >
+          </a>
+        </td>
+      </tr>
+    </table>
+  </section>
+</body>
+
+-->

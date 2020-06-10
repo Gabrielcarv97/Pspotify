@@ -1,0 +1,104 @@
+{
+  "cadastro": [
+    {
+      "id": 1,
+      "nome": "Gabriel",
+      "email": "gabriel@email.com",
+      "confirmemail": "gabriel@email.com",
+      "senha": "senha"
+    },
+    {
+      "nome": "sfsad",
+      "email": "dsads",
+      "confirmemail": "dsads",
+      "senha": "sssss",
+      "id": 2
+    },
+    {
+      "nome": "fdssdf",
+      "email": "antoniogabriel0307@gmail.com",
+      "confirmemail": "antoniogabriel0307@gmail.com",
+      "senha": "ewewew",
+      "id": 3
+    }
+  ],
+  "formsLogin": [
+    {
+      "id": 1,
+      "email": "gabriel@email.com",
+      "senha": "123"
+    },
+    {
+      "nome": "Gabriel Carvalho",
+      "email": "gabriel@mmm.com",
+      "confirmemail": "gabriel@mmm.com",
+      "senha": "1234",
+      "id": 2
+    }
+  ],
+  "playlistM": [
+    {
+      "id": 1,
+      "nome": "sertanejo",
+      "img": "capa.png"
+    },
+    {
+      "id": 2,
+      "nome": "pop",
+      "img": "capa.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "forro",
+      "img": "capa.png"
+    }
+
+  ],
+  "Musicas": [
+    {
+      "id": 1,
+      "titulo": "01 - A gente fez amor.mp3",
+      "Playlistnome": "sertanejo"
+    },
+    {
+      "id": 2,
+      "titulo": "02 - Cidade Inteira.mp3",
+      "Playlistnome": "sertanejo"
+    },
+    {
+      "id": 3,
+      "titulo": "03 - Perrengue.mp3",
+      "Playlistnome": "sertanejo"
+    },
+    {
+      "id": 4,
+      "titulo": "01 ANAVITÓRIA - Pupila.mp3",
+      "Playlistnome": "pop"
+    },
+    {
+      "id": 5,
+      "titulo": "01 Anitta - Terremoto.mp3",
+      "Playlistnome": "pop"
+    },
+    {
+      "id": 6,
+      "titulo": "01 Giulia Be - menina solta.mp3",
+      "Playlistnome": "pop"
+    },
+    {
+      "id": 7,
+      "titulo": "01 - Wesley Safadão - Senta Na Maldade.mp3",
+      "Playlistnome": "forro"
+    },
+    {
+      "id": 8,
+      "titulo": "02 - Wesley Safadão - Só Eu Que Amei.mp3",
+      "Playlistnome": "forro"
+    },
+    {
+      "id": 9,
+      "titulo": "03 - Wesley Safadão - Cornetão.mp3",
+      "Playlistnome": "forro"
+    }
+  ]
+}

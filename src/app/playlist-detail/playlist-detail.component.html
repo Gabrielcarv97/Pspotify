@@ -1,0 +1,18 @@
+
+<h1>Playlist: <p style="text-transform: capitalize;">{{play.nome}}</p></h1>
+
+<body>
+  <section>
+    <img class='imagem' style="width: 400px; height: 400px;" src="../../assets/musicas/{{play.nome}}/{{play.img}}">
+
+    <ul style="color: white;">
+      <li *ngFor='let m of musics'>
+        <audio controls>
+        <source src="../../assets/musicas/{{m.Playlistnome}}/{{m.titulo}}"
+        type="audio/mpeg"/>
+      </audio>
+      </li>
+    </ul>
+  </section>
+</body>
+

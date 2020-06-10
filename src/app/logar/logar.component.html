@@ -1,0 +1,36 @@
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Seu Nome</label>
+    <input type="text" class="form-control" id="nome"
+    placeholder="Nome e Sobrenome"
+    name="nome"
+    [(ngModel)]="usuario.nome">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Endereço de email</label>
+    <input type="email" class="form-control" id="email"
+    placeholder="Seu email"
+    name="email"
+    [(ngModel)]="usuario.email">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Confirme seu email</label>
+    <input type="email" class="form-control" id="confirmemail"
+    placeholder="Seu email"
+    name="confirmemail"
+    [(ngModel)]="usuario.confirmemail">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Senha</label>
+    <input type="password" class="form-control" id="psw"
+    placeholder="Senha"
+    name="senha"
+    [(ngModel)]="usuario.senha">
+  </div>
+
+
+  <button type="submit" (click)="usercriado()" class="btn btn-primary">Enviar</button>
+</form>
